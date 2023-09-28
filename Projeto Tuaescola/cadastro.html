@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuaEscola</title>
+    <script src="https://kit.fontawesome.com/049a2b4c89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><a href="index.html"><img src="img/tuaescola.png" alt=""></a></div>
+            <div class="menu">
+                <nav>
+                    <a href="#">Quem Somos</a>
+                    <a href="#">Graduação</a>
+                    <a href="#">Pós Graduação</a>
+                    <a href="contato.html">Contato</a>
+                </nav>
+            </div>
+            <div class="login">
+                <button class="botao">Entrar<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="quadro">
+                        <h1 ><img src="img/tuaescola.png" alt="" class="txt"></h1>
+                        <p class="txtsub">Digite seus dados abaixo:</p> 
+                        <form action="cadastro.html" method="POST">
+                            <br>
+                            <label class="textarea">Nome:</label>
+                            <input type="text" id="nome" name="Nome:" placeholder="Digite seu nome..." required><br>
+
+                            <label class="textarea">Matrícula:</label>
+                            <input type="number" id="matricula" name="Matrícula:"  placeholder="Digite o número da sua matrícula..." required max="99999999"><br>
+
+                            <label class="textarea">Email:</label>
+                            <input type="email" id="email" name="Email:" placeholder="Digite seu e-mail..." required><br>
+
+                            <label class="textarea">Turma:</label>
+                            <input type="text" id="nome" name="Turma:" placeholder="Digite sua turma..." required><br>
+                            <br>
+                            <div class="botao2d">
+                            <input class="botao2" type="submit" value="Iniciar Teste" formaction="simulado.html">
+                            </div>
+                            <br> <!-- Botão de envio -->
+                        </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

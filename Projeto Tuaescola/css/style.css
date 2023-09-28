@@ -1,0 +1,195 @@
+/* HEADER SITE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+/* CONFIGURAÇÃO LOGO */
+
+.logo{
+    width: 62%;
+    padding-left: 5px;
+}
+.logo img{
+    width: 210px;
+}
+.login{
+    width: 1%;
+    padding-right: 114px;
+}
+
+/* FIM DA CONFIGURAÇÃO LOGO */
+/* CONFIGURAÇÃO NAVEGAÇÕES */
+.menu{
+    width: 70%;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 80px;
+
+}
+.menu nav a{
+    color: #303030; 
+    text-decoration: none;
+    padding-right: 20px;
+    position: relative;
+}
+/* FIM CONFIGURAÇÃO NAVEGAÇÕES */
+/* CONFIGURAÇÃO BOTÕES */
+.botao{
+    display: flex;
+    padding: 7px 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    background: #0a4e94;
+    color: #ffffff;
+    gap: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.botao:hover{
+    transform: translate(2px, 0px);
+    background: #0c5bac;
+    box-shadow: 0px 0px 0px 0px #0a4e94,inset 0px 3px 3px#0a4e94;
+}
+/* FIM CONFIGURAÇÃO BOTÕES */
+/* CONTEÚDO DO SITE HOME */
+
+section.topo-do-site{
+    padding: 0px 22%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.tamanho{
+    max-width: 800px; 
+}
+
+.cara{
+    display: block;
+    width: 100%;
+}
+.img-topo-site img{
+    width: 400px;
+}
+
+
+.txt{
+    font-family: Montserrat;
+    font-size: 35px;
+    line-height: 34px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    color: #0a4e94;
+}
+.cont2{
+    display: flex;
+    align-items: center;
+}
+.cont3{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+.aprovado{
+    width: 60px;
+}
+.aprovado2{
+    width: 50px;
+}
+.textod{
+    padding: 6px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 3400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:black;
+    margin: 3px 0;
+    text-decoration: none;
+    padding-right: 30px;
+    position: relative;
+}
+.textod2{
+    padding: 16px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 3400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:black;
+    margin: 3px 0;
+    text-decoration: none;
+    padding-right: 30px;
+    position: relative;
+}
+.txtsub{
+    padding-top: 5px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 3400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:black;
+    margin: 3px 0;
+    text-decoration: none;
+    padding-right: 30px;
+    position: relative;
+}
+.botao2d{
+    padding-top: 10px;
+}
+.botao2{
+    color: white;
+    padding: 10px 23px;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    gap: 15px;
+    border-radius: 08px;
+    cursor: pointer;
+    background: #0a4e94;
+}
+.botao2:active{
+    transform: translate(0px, 3px);
+    background: #0c5bac;
+    box-shadow: 0px 0px 0px 0px #0a4e94,inset 0px 3px 3px#0a4e94;
+}
